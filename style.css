@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d6cab0;
+	font-family: "Epunda Slab", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e1e1e;
+	padding: 10px 20px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	padding: 2rem 1rem;
+	max-width: 1280px;
+	border: 2px solid;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 400;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	border: 2px solid;
+	width: 100%;
+	padding: 10px 30px;
+}
+
+.smiley-container {
+	height: 40px;
+	width: 40px;
+}
+
+.intro {
+	margin: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.intro p {
+	padding: 0 20px;
+}
+
+.main-image img {
+	height: auto;
+	width: 920px;
+	object-fit: cover;
+}
+
+@media (width <= 1000px) {
+	.main-image img {
+		width: 620px;
+	}
+}
+
+.books-list-container {
+	display: flex;
+	margin: 20px;
+	width: 100%;
+	padding: 0 30px;
+}
+
+.books-list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.book-item {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 20px 20px;
+	border: 2px solid #1e1e1e;
+}
+
+.book-item-image-container {
+	width: 200px;
+	height: 200px;
+}
+
+.book-item-image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.book-item-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.book-item-title {
+	font-size: xx-large;
+}
+
+.book-item-author {
+	font-weight: 600;
+}
